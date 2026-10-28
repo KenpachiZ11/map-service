@@ -15,3 +15,10 @@ git checkout main
 git add docker-compose.yml
 git commit -m "Docker"
 git push origin main
+
+# Стягивание конкретных изменений
+# Из ветки main в frontend || backend
+git checkout frontend
+git restore --source=main -- frontend/.vscode/typescriptreact.json
+git add .
+git commit -m ""
