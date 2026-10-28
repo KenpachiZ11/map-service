@@ -13,3 +13,4 @@ backend/.env.local
 # === ОБЩЕЕ ===
 .DS_Store
 *.log
+.env*
