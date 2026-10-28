@@ -1,0 +1,17 @@
+{
+  "React component": {
+    "prefix": "tsrafc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "type Props = {};",
+      "",
+      "export const ${1:Component} = ({}: Props) => {",
+      "  return <div>",
+      "     $0",
+      "  </div>",
+      "}"
+    ],
+    "description": "React component"
+  }
+}
